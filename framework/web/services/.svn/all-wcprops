@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/yiisoft/yii/!svn/ver/4814/trunk/framework/web/services
+END
+CWebServiceAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/yiisoft/yii/!svn/ver/4235/trunk/framework/web/services/CWebServiceAction.php
+END
+CWebService.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yiisoft/yii/!svn/ver/4416/trunk/framework/web/services/CWebService.php
+END
+CWsdlGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4814/trunk/framework/web/services/CWsdlGenerator.php
+END

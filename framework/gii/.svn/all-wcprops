@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/yiisoft/yii/!svn/ver/4814/trunk/framework/gii
+END
+CCodeFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yiisoft/yii/!svn/ver/4235/trunk/framework/gii/CCodeFile.php
+END
+CCodeModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yiisoft/yii/!svn/ver/4260/trunk/framework/gii/CCodeModel.php
+END
+GiiModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yiisoft/yii/!svn/ver/4325/trunk/framework/gii/GiiModule.php
+END
+CCodeForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yiisoft/yii/!svn/ver/4235/trunk/framework/gii/CCodeForm.php
+END
+CCodeGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yiisoft/yii/!svn/ver/4235/trunk/framework/gii/CCodeGenerator.php
+END

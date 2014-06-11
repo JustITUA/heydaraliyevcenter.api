@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/yiisoft/yii/!svn/ver/4814/trunk/framework/logging
+END
+CDbLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yiisoft/yii/!svn/ver/4235/trunk/framework/logging/CDbLogRoute.php
+END
+CLogFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yiisoft/yii/!svn/ver/4559/trunk/framework/logging/CLogFilter.php
+END
+CEmailLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yiisoft/yii/!svn/ver/4814/trunk/framework/logging/CEmailLogRoute.php
+END
+CWebLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/4508/trunk/framework/logging/CWebLogRoute.php
+END
+CLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yiisoft/yii/!svn/ver/4325/trunk/framework/logging/CLogger.php
+END
+CFileLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yiisoft/yii/!svn/ver/4325/trunk/framework/logging/CFileLogRoute.php
+END
+CLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yiisoft/yii/!svn/ver/4235/trunk/framework/logging/CLogRoute.php
+END
+CProfileLogRoute.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yiisoft/yii/!svn/ver/4325/trunk/framework/logging/CProfileLogRoute.php
+END
+CLogRouter.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yiisoft/yii/!svn/ver/4235/trunk/framework/logging/CLogRouter.php
+END
+CChainedLogFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yiisoft/yii/!svn/ver/4235/trunk/framework/logging/CChainedLogFilter.php
+END

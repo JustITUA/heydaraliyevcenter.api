@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/yiisoft/yii/!svn/ver/4416/trunk/framework/i18n/gettext
+END
+CGettextMoFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4235/trunk/framework/i18n/gettext/CGettextMoFile.php
+END
+CGettextPoFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4416/trunk/framework/i18n/gettext/CGettextPoFile.php
+END
+CGettextFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yiisoft/yii/!svn/ver/4235/trunk/framework/i18n/gettext/CGettextFile.php
+END

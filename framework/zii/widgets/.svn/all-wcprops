@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/yiisoft/yii/!svn/ver/4830/trunk/framework/zii/widgets
+END
+CListView.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yiisoft/yii/!svn/ver/4454/trunk/framework/zii/widgets/CListView.php
+END
+CBreadcrumbs.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/yiisoft/yii/!svn/ver/4235/trunk/framework/zii/widgets/CBreadcrumbs.php
+END
+CPortlet.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/4555/trunk/framework/zii/widgets/CPortlet.php
+END
+CDetailView.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yiisoft/yii/!svn/ver/4555/trunk/framework/zii/widgets/CDetailView.php
+END
+CBaseListView.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yiisoft/yii/!svn/ver/4555/trunk/framework/zii/widgets/CBaseListView.php
+END
+CMenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yiisoft/yii/!svn/ver/4555/trunk/framework/zii/widgets/CMenu.php
+END

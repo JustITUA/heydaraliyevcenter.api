@@ -1,0 +1,77 @@
+10
+
+dir
+4842
+https://github.com/yiisoft/yii/trunk/framework/cli/views/shell/module
+https://github.com/yiisoft/yii
+
+
+
+2013-10-15T09:47:47.000000Z
+3583
+carsten.brandt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87037b24-bcb4-18d1-d9d9-ce57b7db7bff
+
+models
+dir
+
+components
+dir
+
+controllers
+dir
+
+messages
+dir
+
+module.php
+file
+
+
+
+
+2013-10-15T21:27:11.000000Z
+a97ef89d8542a49d40a950fd89bd1b5c
+2013-10-15T09:47:47.000000Z
+2217
+carsten.brandt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+707
+
+views
+dir
+

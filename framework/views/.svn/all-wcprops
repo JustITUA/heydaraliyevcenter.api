@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/yiisoft/yii/!svn/ver/4814/trunk/framework/views
+END
+error.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/yiisoft/yii/!svn/ver/74/trunk/framework/views/error.php
+END
+profile-summary.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/827/trunk/framework/views/profile-summary.php
+END
+profile-summary-firebug.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/yiisoft/yii/!svn/ver/1584/trunk/framework/views/profile-summary-firebug.php
+END
+error400.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yiisoft/yii/!svn/ver/74/trunk/framework/views/error400.php
+END
+error500.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yiisoft/yii/!svn/ver/74/trunk/framework/views/error500.php
+END
+exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yiisoft/yii/!svn/ver/4144/trunk/framework/views/exception.php
+END
+profile-callstack.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/yiisoft/yii/!svn/ver/827/trunk/framework/views/profile-callstack.php
+END
+error403.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/yiisoft/yii/!svn/ver/393/trunk/framework/views/error403.php
+END
+profile-callstack-firebug.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yiisoft/yii/!svn/ver/1584/trunk/framework/views/profile-callstack-firebug.php
+END
+error404.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yiisoft/yii/!svn/ver/74/trunk/framework/views/error404.php
+END
+error503.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yiisoft/yii/!svn/ver/74/trunk/framework/views/error503.php
+END
+log.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/yiisoft/yii/!svn/ver/1203/trunk/framework/views/log.php
+END
+log-firebug.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yiisoft/yii/!svn/ver/4144/trunk/framework/views/log-firebug.php
+END

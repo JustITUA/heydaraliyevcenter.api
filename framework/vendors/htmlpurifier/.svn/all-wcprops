@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yiisoft/yii/!svn/ver/4260/trunk/framework/vendors/htmlpurifier
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/154/trunk/framework/vendors/htmlpurifier/LICENSE.txt
+END
+HTMLPurifier.standalone.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/yiisoft/yii/!svn/ver/4260/trunk/framework/vendors/htmlpurifier/HTMLPurifier.standalone.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/tests
+END
+WebTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/yiisoft/yii/!svn/ver/421/trunk/framework/cli/views/webapp/protected/tests/WebTestCase.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/yiisoft/yii/!svn/ver/423/trunk/framework/cli/views/webapp/protected/tests/bootstrap.php
+END
+phpunit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/yiisoft/yii/!svn/ver/419/trunk/framework/cli/views/webapp/protected/tests/phpunit.xml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/yiisoft/yii/!svn/ver/4814/trunk/framework/cli/commands
+END
+WebAppCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yiisoft/yii/!svn/ver/4235/trunk/framework/cli/commands/WebAppCommand.php
+END
+MessageCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4260/trunk/framework/cli/commands/MessageCommand.php
+END
+ShellCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/yiisoft/yii/!svn/ver/4814/trunk/framework/cli/commands/ShellCommand.php
+END
+MigrateCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4454/trunk/framework/cli/commands/MigrateCommand.php
+END

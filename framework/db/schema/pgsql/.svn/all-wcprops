@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yiisoft/yii/!svn/ver/4814/trunk/framework/db/schema/pgsql
+END
+CPgsqlSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yiisoft/yii/!svn/ver/4814/trunk/framework/db/schema/pgsql/CPgsqlSchema.php
+END
+CPgsqlCommandBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/yiisoft/yii/!svn/ver/4461/trunk/framework/db/schema/pgsql/CPgsqlCommandBuilder.php
+END
+CPgsqlTableSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/yiisoft/yii/!svn/ver/4235/trunk/framework/db/schema/pgsql/CPgsqlTableSchema.php
+END
+CPgsqlColumnSchema.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/yiisoft/yii/!svn/ver/4235/trunk/framework/db/schema/pgsql/CPgsqlColumnSchema.php
+END

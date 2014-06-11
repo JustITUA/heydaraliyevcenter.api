@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/yiisoft/yii/!svn/ver/4235/trunk/framework/web/renderers
+END
+CPradoViewRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/yiisoft/yii/!svn/ver/4235/trunk/framework/web/renderers/CPradoViewRenderer.php
+END
+CViewRenderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4235/trunk/framework/web/renderers/CViewRenderer.php
+END

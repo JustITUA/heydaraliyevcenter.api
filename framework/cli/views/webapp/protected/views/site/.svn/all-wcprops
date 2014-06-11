@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/views/site
+END
+error.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/views/site/error.php
+END
+contact.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/views/site/contact.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/views/site/index.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/yiisoft/yii/!svn/ver/4144/trunk/framework/cli/views/webapp/protected/views/site/login.php
+END

@@ -1,0 +1,77 @@
+10
+
+dir
+4842
+https://github.com/yiisoft/yii/trunk/framework/gii/generators/module/templates/default
+https://github.com/yiisoft/yii
+
+
+
+2013-10-15T09:47:47.000000Z
+4144
+carsten.brandt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+87037b24-bcb4-18d1-d9d9-ce57b7db7bff
+
+models
+dir
+
+components
+dir
+
+controllers
+dir
+
+messages
+dir
+
+module.php
+file
+
+
+
+
+2013-10-15T21:27:15.000000Z
+bc12cddc675b1908d484eba5838e4941
+2013-10-15T09:47:47.000000Z
+2217
+carsten.brandt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+725
+
+views
+dir
+

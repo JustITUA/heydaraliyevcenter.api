@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/yiisoft/yii/!svn/ver/911/trunk/framework/gii/components/Pear/Text/Diff/Renderer
+END
+inline.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/yiisoft/yii/!svn/ver/911/trunk/framework/gii/components/Pear/Text/Diff/Renderer/inline.php
+END
+unified.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/yiisoft/yii/!svn/ver/911/trunk/framework/gii/components/Pear/Text/Diff/Renderer/unified.php
+END
+context.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/yiisoft/yii/!svn/ver/911/trunk/framework/gii/components/Pear/Text/Diff/Renderer/context.php
+END

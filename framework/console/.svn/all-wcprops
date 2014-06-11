@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/yiisoft/yii/!svn/ver/4814/trunk/framework/console
+END
+CConsoleApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/yiisoft/yii/!svn/ver/4286/trunk/framework/console/CConsoleApplication.php
+END
+CHelpCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/4235/trunk/framework/console/CHelpCommand.php
+END
+CConsoleCommandRunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/yiisoft/yii/!svn/ver/4286/trunk/framework/console/CConsoleCommandRunner.php
+END
+CConsoleCommand.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/yiisoft/yii/!svn/ver/4814/trunk/framework/console/CConsoleCommand.php
+END
+CConsoleCommandBehavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/yiisoft/yii/!svn/ver/4260/trunk/framework/console/CConsoleCommandBehavior.php
+END
+CConsoleCommandEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/yiisoft/yii/!svn/ver/4235/trunk/framework/console/CConsoleCommandEvent.php
+END

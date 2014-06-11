@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/yiisoft/yii/!svn/ver/4821/trunk/framework/base
+END
+CApplicationComponent.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/yiisoft/yii/!svn/ver/4416/trunk/framework/base/CApplicationComponent.php
+END
+CErrorHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/yiisoft/yii/!svn/ver/4821/trunk/framework/base/CErrorHandler.php
+END
+CErrorEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CErrorEvent.php
+END
+CHttpException.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CHttpException.php
+END
+CException.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CException.php
+END
+CBehavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CBehavior.php
+END
+CModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/yiisoft/yii/!svn/ver/4814/trunk/framework/base/CModel.php
+END
+CExceptionEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CExceptionEvent.php
+END
+CSecurityManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/yiisoft/yii/!svn/ver/4814/trunk/framework/base/CSecurityManager.php
+END
+CModelEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CModelEvent.php
+END
+CComponent.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yiisoft/yii/!svn/ver/4416/trunk/framework/base/CComponent.php
+END
+CApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/yiisoft/yii/!svn/ver/4814/trunk/framework/base/CApplication.php
+END
+interfaces.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/yiisoft/yii/!svn/ver/4814/trunk/framework/base/interfaces.php
+END
+CModelBehavior.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CModelBehavior.php
+END
+CStatePersister.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CStatePersister.php
+END
+CModule.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/yiisoft/yii/!svn/ver/4235/trunk/framework/base/CModule.php
+END
