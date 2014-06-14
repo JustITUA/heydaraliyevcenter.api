@@ -43,7 +43,6 @@ return array(
                 array('api/update', 'pattern' => 'api/<model:\w+>/<id:\d+>', 'verb' => 'PUT'),
                 array('api/delete', 'pattern' => 'api/<model:\w+>/<id:\d+>', 'verb' => 'DELETE'),
                 array('api/create', 'pattern' => 'api/<model:\w+>', 'verb' => 'POST'),
-                array('sms/send', 'pattern' => 'sms/<model:\w+>', 'verb' => 'GET'),
                 // Other controllers
                 '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
             ),
@@ -53,7 +52,7 @@ return array(
         ),
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=heydaraliyevcenter',
+            'connectionString' => 'mysql:host=localhost;dbname=PoGorodu',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => 'start',
@@ -83,6 +82,6 @@ return array(
     // using Yii::app()->params['paramName']
     'params' => array(
         // this is used in contact page
-        'adminEmail' => 'webmaster@example.com',
+        'adminEmail' => 'office@justit.com.ua',
     ),
 );

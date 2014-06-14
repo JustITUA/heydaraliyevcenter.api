@@ -5,10 +5,6 @@ class ApiController extends Controller {
 
     Const APPLICATION_ID = 'heydaraliyevcenter.api';
 
-    /**
-     * Default response format
-     * either 'json' or 'xml'
-     */
     private $format = 'json';
 
     /**
@@ -19,16 +15,14 @@ class ApiController extends Controller {
     }
 
     // Actions
-    public function actionList($USER_ID, $AUTH_PHONE) {
+    public function actionList() {
         switch ($_GET['model']) {
-            case 'login':
-                $this->_checkAuth(true);
-                $output = $this->_selectCurrentUser($AUTH_PHONE);
+            case 'test':
+                $output = array("message" => "OK");
                 break;
             default:
                 // Model not implemented error
-                $this->_sendResponse(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
-                Yii::app()->end();
+            	$this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
         // Send the response
         $this->_sendResponse(200, CJSON::encode($output));
@@ -38,21 +32,16 @@ class ApiController extends Controller {
         $this->_checkAuth(true);
         // Check if id was submitted via GET
         if (!isset($_GET['id']))
-            $this->_sendResponse(500, 'Error: Parameter id is missing');
-
+        	$this->error(500, 'Error: Parameter id is missing');
+            
         switch ($_GET['model']) {
             // Find respective model    
             case 'none':
                 break;
             default:
-                $this->_sendResponse(501, sprintf('Mode view is not implemented for model %s', $_GET['model']));
-                Yii::app()->end();
+                $this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
-        // Did we find the requested model? If not, raise an error
-        if (is_null($model))
-            $this->_sendResponse(404, 'No Item found with id ' . $_GET['id']);
-        else
-            $this->_sendResponse(200, CJSON::encode($model));
+        $this->_sendResponse(200, CJSON::encode($model));
     }
 
     public function actionCreate($AUTH_PHONE) {
@@ -63,24 +52,21 @@ class ApiController extends Controller {
                 break;
             default:
                 // Model not implemented error
-                $this->_sendResponse(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
-                Yii::app()->end();
+                $this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
     }
 
     public function actionUpdate($USER_ID, $AUTH_PHONE) {
         $this->_checkAuth(true);
-        // Parse the PUT parameters. This didn't work: parse_str(file_get_contents('php://input'), $put_vars);
-        $json = file_get_contents('php://input'); //$GLOBALS['HTTP_RAW_POST_DATA'] is not preferred: http://www.php.net/manual/en/ini.core.php#ini.always-populate-raw-post-data
-        $put_vars = CJSON::decode($json, true);  //true means use associative array
+        $json = file_get_contents('php://input');
+        $put_vars = CJSON::decode($json, true);
 
         switch ($_GET['model']) {
             case 'none':
 
                 break;
             default:
-                $this->_sendResponse(501, sprintf('Error: Mode update is not implemented for model %s', $_GET['model']));
-                Yii::app()->end();
+                $this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
         $this->_sendResponse(200, CJSON::encode($output));
     }
@@ -95,13 +81,12 @@ class ApiController extends Controller {
 
                 break;
             default:
-                $this->_sendResponse(501, sprintf('Error: Mode delete is not implemented for model %s', $_GET['model']));
-                Yii::app()->end();
+                $this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
         $this->_sendResponse(200, "ok");
     }
 
-    private function _sendResponse($status = 200, $body = '', $content_type = 'text/html') {
+    private function _sendResponse($status = 200, $body = '', $content_type = 'text/json') {
         // set the status
         $status_header = 'HTTP/1.1 ' . $status . ' ' . $this->_getStatusCodeMessage($status);
         header($status_header);
@@ -145,7 +130,7 @@ class ApiController extends Controller {
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>' . $status . ' ' . $this->_getStatusCodeMessage($status) . '</title>
 </head>
 <body>
@@ -216,6 +201,15 @@ class ApiController extends Controller {
         $criteria->select = "id, phone, phone_code, first_name, middle_name, last_name, email, photo, is_active";
         $user = User::model()->find($criteria);
         return $user;
+    }
+    
+    private function error($code, $message) {
+    	$message = CJSON::encode(
+    			array("error" => array("code" => $code,
+    								   "message" =>$message)
+	    			));
+    	$this->_sendResponse($code, $message);
+    	Yii::app()->end();
     }
 
 }
