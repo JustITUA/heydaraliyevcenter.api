@@ -18,7 +18,7 @@ class ApiController extends Controller {
     public function actionList() {
         switch ($_GET['model']) {
             case 'test':
-                $output = array("message" => "OK");
+                $output = array("message" => "Test success");
                 break;
             default:
                 // Model not implemented error
@@ -56,15 +56,18 @@ class ApiController extends Controller {
         }
     }
 
-    public function actionUpdate($USER_ID, $AUTH_PHONE) {
+    public function actionUpdate() {
         $this->_checkAuth(true);
         $json = file_get_contents('php://input');
         $put_vars = CJSON::decode($json, true);
 
         switch ($_GET['model']) {
             case 'none':
-
                 break;
+            case 'login':
+               	$output = array("message" => "OK");
+               	break;
+                
             default:
                 $this->error(501, sprintf('Error: Mode list is not implemented for model %s', $_GET['model']));
         }
